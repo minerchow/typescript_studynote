@@ -43,15 +43,15 @@ console.log(c.say());
 // }
 
 
-// class Boss extends Person {
+// class Coder extends Person {
 //     say():string{
 //      //   return this.age
-//         return super.say() + ",是个大老板";
+//         return super.say() + ",是个小前端";
 //     }
 // }
 // let p = new Person("xiaoming",18);
 // console.log(p.say());
 // p.Age = 10;
 // console.log(p.Age);
-// let b = new Boss("桂总",18);
+// let b = new Coder("xiaoming",18);
 // console.log(b.say());
