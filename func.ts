@@ -28,7 +28,7 @@ console.log(test4("a",1,"eee"));
 
 //函数重载
 function test5(n:string):string
-
+function test5(n:string,m:string):string
 function test5(n:number):number
 
 function test5(n:any){
@@ -36,4 +36,5 @@ function test5(n:any){
 }
 
 console.log(test5('aaa'));
+console.log(test5('aaa',"www"));
 console.log(test5(1));
